@@ -1,8 +1,9 @@
 import io.gitlab.arturbosch.detekt.Detekt
 
+@Suppress("DSL_SCOPE_VIOLATION")
 plugins {
-	kotlin("jvm") version "1.7.10"
-	id("io.gitlab.arturbosch.detekt") version "1.21.0"
+	alias(libs.plugins.kotlin)
+	alias(libs.plugins.detekt)
 }
 
 group = "dev.jimmymorales"
@@ -19,10 +20,18 @@ kotlin {
 	}
 }
 
+detekt {
+	config = rootProject.files("config/detekt/detekt.yml")
+}
+
 val detektJvmVersion = JavaVersion.VERSION_1_8.toString()
 tasks.withType<Detekt>().configureEach {
 	jvmTarget = detektJvmVersion
 }
 tasks.withType<io.gitlab.arturbosch.detekt.DetektCreateBaselineTask>().configureEach {
 	jvmTarget = detektJvmVersion
+}
+
+dependencies {
+	detektPlugins(libs.detekt.formatting)
 }
