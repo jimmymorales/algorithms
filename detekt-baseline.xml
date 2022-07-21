@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>ArrayPrimitive:Question7.kt$Array&lt;Int&gt;</ID>
+    <ID>ArrayPrimitive:Question8.kt$Array&lt;Int&gt;</ID>
+    <ID>ComplexMethod:Question8.kt$private fun zeroMatrix(matrix: Array&lt;Array&lt;Int&gt;&gt;)</ID>
+    <ID>FunctionNaming:Stack.kt$fun &lt;T&gt; Stack(): Stack&lt;T&gt;</ID>
+    <ID>MagicNumber:Example5.kt$100_000</ID>
+    <ID>MagicNumber:Question1.kt$128</ID>
+    <ID>MagicNumber:Question3.kt$13</ID>
+    <ID>MagicNumber:Question3.kt$3</ID>
+    <ID>MagicNumber:Question5.kt$10</ID>
+    <ID>MagicNumber:Question5.kt$9</ID>
+    <ID>MagicNumber:Question9.kt$3</ID>
+    <ID>MatchingDeclarationName:Question2.kt$MinStack</ID>
+    <ID>MatchingDeclarationName:Question4.kt$QueueViaStacks&lt;T&gt;</ID>
+    <ID>NestedBlockDepth:Question11.kt$BstNode$fun delete(value: Int)</ID>
+    <ID>NewLineAtEndOfFile:BTNode.kt$trees_graphs.BTNode.kt</ID>
+    <ID>NewLineAtEndOfFile:Example1.kt$bigo.Example1.kt</ID>
+    <ID>NewLineAtEndOfFile:Example11.kt$bigo.Example11.kt</ID>
+    <ID>NewLineAtEndOfFile:Example12.kt$bigo.Example12.kt</ID>
+    <ID>NewLineAtEndOfFile:Example2.kt$bigo.Example2.kt</ID>
+    <ID>NewLineAtEndOfFile:Example4.kt$bigo.Example4.kt</ID>
+    <ID>NewLineAtEndOfFile:Example5.kt$bigo.Example5.kt</ID>
+    <ID>NewLineAtEndOfFile:Example6.kt$bigo.Example6.kt</ID>
+    <ID>NewLineAtEndOfFile:LinkedListNode.kt$linked_lists.LinkedListNode.kt</ID>
+    <ID>NewLineAtEndOfFile:Question1.kt$arrays_strings.Question1.kt</ID>
+    <ID>NewLineAtEndOfFile:Question2.kt$linked_lists.Question2.kt</ID>
+    <ID>NewLineAtEndOfFile:Question3.kt$linked_lists.Question3.kt</ID>
+    <ID>NewLineAtEndOfFile:Question4.kt$arrays_strings.Question4.kt</ID>
+    <ID>NewLineAtEndOfFile:Question4.kt$linked_lists.Question4.kt</ID>
+    <ID>NewLineAtEndOfFile:Question4.kt$trees_graphs.Question4.kt</ID>
+    <ID>NewLineAtEndOfFile:Question5.kt$arrays_strings.Question5.kt</ID>
+    <ID>NewLineAtEndOfFile:Question5.kt$stacks_queues.Question5.kt</ID>
+    <ID>NewLineAtEndOfFile:Question5.kt$trees_graphs.Question5.kt</ID>
+    <ID>NewLineAtEndOfFile:Question6.kt$arrays_strings.Question6.kt</ID>
+    <ID>NewLineAtEndOfFile:Question7.kt$arrays_strings.Question7.kt</ID>
+    <ID>NewLineAtEndOfFile:Question7.kt$linked_lists.Question7.kt</ID>
+    <ID>NewLineAtEndOfFile:Question8.kt$arrays_strings.Question8.kt</ID>
+    <ID>NewLineAtEndOfFile:Question8.kt$linked_lists.Question8.kt</ID>
+    <ID>NewLineAtEndOfFile:Question8.kt$trees_graphs.Question8.kt</ID>
+    <ID>NewLineAtEndOfFile:Question9.kt$trees_graphs.Question9.kt</ID>
+    <ID>PackageNaming:BTNode.kt$package trees_graphs</ID>
+    <ID>PackageNaming:Graph.kt$package trees_graphs</ID>
+    <ID>PackageNaming:LinkedListNode.kt$package linked_lists</ID>
+    <ID>PackageNaming:Question1.kt$package arrays_strings</ID>
+    <ID>PackageNaming:Question1.kt$package linked_lists</ID>
+    <ID>PackageNaming:Question1.kt$package stacks_queues</ID>
+    <ID>PackageNaming:Question1.kt$package trees_graphs</ID>
+    <ID>PackageNaming:Question10.kt$package trees_graphs</ID>
+    <ID>PackageNaming:Question11.kt$package trees_graphs</ID>
+    <ID>PackageNaming:Question2.kt$package arrays_strings</ID>
+    <ID>PackageNaming:Question2.kt$package linked_lists</ID>
+    <ID>PackageNaming:Question2.kt$package stacks_queues</ID>
+    <ID>PackageNaming:Question2.kt$package trees_graphs</ID>
+    <ID>PackageNaming:Question3.kt$package arrays_strings</ID>
+    <ID>PackageNaming:Question3.kt$package linked_lists</ID>
+    <ID>PackageNaming:Question3.kt$package stacks_queues</ID>
+    <ID>PackageNaming:Question3.kt$package trees_graphs</ID>
+    <ID>PackageNaming:Question4.kt$package arrays_strings</ID>
+    <ID>PackageNaming:Question4.kt$package linked_lists</ID>
+    <ID>PackageNaming:Question4.kt$package stacks_queues</ID>
+    <ID>PackageNaming:Question4.kt$package trees_graphs</ID>
+    <ID>PackageNaming:Question5.kt$package arrays_strings</ID>
+    <ID>PackageNaming:Question5.kt$package linked_lists</ID>
+    <ID>PackageNaming:Question5.kt$package stacks_queues</ID>
+    <ID>PackageNaming:Question5.kt$package trees_graphs</ID>
+    <ID>PackageNaming:Question6.kt$package arrays_strings</ID>
+    <ID>PackageNaming:Question6.kt$package linked_lists</ID>
+    <ID>PackageNaming:Question6.kt$package stacks_queues</ID>
+    <ID>PackageNaming:Question6.kt$package trees_graphs</ID>
+    <ID>PackageNaming:Question7.kt$package arrays_strings</ID>
+    <ID>PackageNaming:Question7.kt$package linked_lists</ID>
+    <ID>PackageNaming:Question7.kt$package trees_graphs</ID>
+    <ID>PackageNaming:Question8.kt$package arrays_strings</ID>
+    <ID>PackageNaming:Question8.kt$package linked_lists</ID>
+    <ID>PackageNaming:Question8.kt$package trees_graphs</ID>
+    <ID>PackageNaming:Question9.kt$package arrays_strings</ID>
+    <ID>PackageNaming:Question9.kt$package trees_graphs</ID>
+    <ID>PackageNaming:Stack.kt$package stacks_queues</ID>
+    <ID>ReturnCount:Question1.kt$private fun Graph.searchPath(start: Node, end: Node): Boolean</ID>
+    <ID>ReturnCount:Question1.kt$private fun isUnique(s: String) : Boolean</ID>
+    <ID>ReturnCount:Question2.kt$private fun &lt;T&gt; kthToLast(head: LinkedListNode&lt;T&gt;, k: Int): LinkedListNode&lt;T&gt;?</ID>
+    <ID>ReturnCount:Question2.kt$private fun checkPermutation(s: String, t: String): Boolean</ID>
+    <ID>ReturnCount:Question4.kt$private fun checkHeight(root: BTNode?): Int</ID>
+    <ID>ReturnCount:Question5.kt$private fun checkOneEditAway(s: String, t: String): Boolean</ID>
+    <ID>ReturnCount:Question6.kt$AnimalShelter$fun dequeueAny(): Animal</ID>
+    <ID>ReturnCount:Question6.kt$private fun &lt;T&gt; isPalHelper(head: LinkedListNode&lt;T&gt;?, length : Int): Pair&lt;LinkedListNode&lt;T&gt;?, Boolean&gt;</ID>
+    <ID>ReturnCount:Question7.kt$private fun doDFS( node: String, visiting: MutableSet&lt;String&gt;, visited: MutableSet&lt;String&gt;, results: ArrayDeque&lt;String&gt;, graph: MutableMap&lt;String, List&lt;String&gt;&gt; ): Boolean</ID>
+    <ID>ReturnCount:Question7.kt$private fun findBuildOrder(projects: Set&lt;String&gt;, dependencies: Set&lt;Pair&lt;String, String&gt;&gt;): List&lt;String&gt;?</ID>
+    <ID>ReturnCount:Question8.kt$private fun commonAncestorHelper(root: BTNode?, p: BTNode, q: BTNode): Pair&lt;BTNode?, Boolean&gt;</ID>
+    <ID>TooManyFunctions:Question1.kt$MultiStack</ID>
+    <ID>UnusedPrivateClass:Question6.kt$AnimalShelter</ID>
+    <ID>UnusedPrivateMember:Example1.kt$private fun foo(array: IntArray)</ID>
+    <ID>UnusedPrivateMember:Example1.kt$private fun foo2(array: IntArray)</ID>
+    <ID>UnusedPrivateMember:Example1.kt$private fun fooKt(array: IntArray)</ID>
+    <ID>UnusedPrivateMember:Example10.kt$private fun isPrime(n: Int): Boolean</ID>
+    <ID>UnusedPrivateMember:Example2.kt$private fun printPairs(array: IntArray)</ID>
+    <ID>UnusedPrivateMember:Example3.kt$private fun printPairs(array: IntArray)</ID>
+    <ID>UnusedPrivateMember:Example3.kt$private fun printPairsKt(array: IntArray)</ID>
+    <ID>UnusedPrivateMember:Example4.kt$private fun printUnorderedPairs(arrayA: IntArray, arrayB: IntArray)</ID>
+    <ID>UnusedPrivateMember:Example5.kt$private fun printUnorderedPairs(arrayA: IntArray, arrayB: IntArray)</ID>
+    <ID>UnusedPrivateMember:Example6.kt$private fun reverse(array: IntArray)</ID>
+    <ID>UnusedPrivateMember:Question1.kt$private fun &lt;T&gt; removeDups(head: LinkedListNode&lt;T&gt;)</ID>
+    <ID>UnusedPrivateMember:Question1.kt$private fun &lt;T&gt; removeDups2(head: LinkedListNode&lt;T&gt;)</ID>
+    <ID>UnusedPrivateMember:Question1.kt$private fun Graph.searchPath(start: Node, end: Node): Boolean</ID>
+    <ID>UnusedPrivateMember:Question2.kt$private fun &lt;T&gt; kthToLast(head: LinkedListNode&lt;T&gt;, k: Int): LinkedListNode&lt;T&gt;?</ID>
+    <ID>UnusedPrivateMember:Question2.kt$private fun &lt;T&gt; kthToLastRec(head: LinkedListNode&lt;T&gt;, k: Int): LinkedListNode&lt;T&gt;?</ID>
+    <ID>UnusedPrivateMember:Question3.kt$private fun &lt;T&gt; LinkedListNode&lt;T&gt;.delete(): Boolean</ID>
+    <ID>UnusedPrivateMember:Question3.kt$private fun createLevelLinkedList(root: BTNode?): List&lt;LinkedList&lt;BTNode&gt;&gt;</ID>
+    <ID>UnusedPrivateMember:Question4.kt$private fun BTNode.isBalanced()</ID>
+    <ID>UnusedPrivateMember:Question4.kt$private fun LinkedListNode&lt;Int&gt;.partition(n: Int): LinkedListNode&lt;Int&gt;</ID>
+    <ID>UnusedPrivateMember:Question5.kt$private fun LinkedListNode&lt;Int&gt;.plus(node: LinkedListNode&lt;Int&gt;): LinkedListNode&lt;Int&gt;</ID>
+    <ID>UnusedPrivateMember:Question5.kt$private fun LinkedListNode&lt;Int&gt;.plusRec(node: LinkedListNode&lt;Int&gt;): LinkedListNode&lt;Int&gt;</ID>
+    <ID>UnusedPrivateMember:Question5.kt$private fun Stack&lt;Int&gt;.sort()</ID>
+    <ID>UnusedPrivateMember:Question5.kt$private fun validateBST(node: BTNode): Boolean</ID>
+    <ID>UnusedPrivateMember:Question6.kt$private fun &lt;T&gt; LinkedListNode&lt;T&gt;.isPalindrome(): Boolean</ID>
+    <ID>UnusedPrivateMember:Question6.kt$private fun &lt;T&gt; LinkedListNode&lt;T&gt;.isPalindromeRec(): Boolean</ID>
+    <ID>UnusedPrivateMember:Question6.kt$private fun BTNode.inorderSuccessor(): BTNode?</ID>
+    <ID>UnusedPrivateMember:Question7.kt$private fun &lt;T&gt; findIntersection(list1: LinkedListNode&lt;T&gt;, list2: LinkedListNode&lt;T&gt;): LinkedListNode&lt;T&gt;?</ID>
+    <ID>UnusedPrivateMember:Question7.kt$private fun rotate(matrix: Array&lt;Array&lt;Int&gt;&gt;): Boolean</ID>
+    <ID>UnusedPrivateMember:Question8.kt$private fun commonAncestor(root: BTNode, p: BTNode, q: BTNode): BTNode?</ID>
+    <ID>UnusedPrivateMember:Question8.kt$private fun zeroMatrix(matrix: Array&lt;Array&lt;Int&gt;&gt;)</ID>
+    <ID>UnusedPrivateMember:Question9.kt$private fun isRotation(s1: String, s2: String): Boolean</ID>
+  </CurrentIssues>
+</SmellBaseline>
