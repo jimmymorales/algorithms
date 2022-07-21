@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.6.21"
+    kotlin("jvm") version "1.7.10"
 }
 
 group = "dev.jimmymorales"
@@ -7,8 +7,4 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
-}
-
-dependencies {
-    implementation(kotlin("stdlib"))
 }
