@@ -5,6 +5,7 @@ Solutions for [Cracking the Coding Interview 6th Edition](https://www.crackingth
 You can find the descriptions of the problems in the book.
 
 The solutions to the problems try to be idiomatic Kotlin and some of them have alternative solutions written. Feel free to raise an issue for any comment or advice you have, it will be highly appreciate it.
+Tests for some of the solutions can be found in [src/test/kotlin](src/test/kotlin).
 
 ## Problems
 1. [Arrays and Strings](src/main/kotlin/arrays_strings)
@@ -33,16 +34,16 @@ The solutions to the problems try to be idiomatic Kotlin and some of them have a
    1. [Queue vis Stacks](src/main/kotlin/stacks_queues/Question4.kt)
    1. [Sort Stack](src/main/kotlin/stacks_queues/Question5.kt)
    1. [Animal Shelter](src/main/kotlin/stacks_queues/Question6.kt)
-1. [Trees and Graphs](src/main/kotlin/trees_graphs)
-   1. [Route Between Nodes](src/main/kotlin/trees_graphs/Question1.kt)
-   1. [Minimal Tree](src/main/kotlin/trees_graphs/Question2.kt)
-   1. [List of Depths](src/main/kotlin/trees_graphs/Question3.kt)
-   1. [Check Balanced](src/main/kotlin/trees_graphs/Question4.kt)
-   1. [Validate BST](src/main/kotlin/trees_graphs/Question5.kt)
-   1. [Successor](src/main/kotlin/trees_graphs/Question6.kt)
-   1. [Build Order](src/main/kotlin/trees_graphs/Question7.kt)
-   1. [First Common Ancestor](src/main/kotlin/trees_graphs/Question8.kt)
-   1. [BST Sequences](src/main/kotlin/trees_graphs/Question9.kt)
-   1. [Check Subtree](src/main/kotlin/trees_graphs/Question10.kt)
-   1. [Random Node](src/main/kotlin/trees_graphs/Question11.kt)
-   
+1. [Trees and Graphs](src/main/kotlin/treesandgraphs)
+   1. [Route Between Nodes](src/main/kotlin/treesandgraphs/Question1.kt)
+   1. [Minimal Tree](src/main/kotlin/treesandgraphs/Question2.kt)
+   1. [List of Depths](src/main/kotlin/treesandgraphs/Question3.kt)
+   1. [Check Balanced](src/main/kotlin/treesandgraphs/Question4.kt)
+   1. [Validate BST](src/main/kotlin/treesandgraphs/Question5.kt)
+   1. [Successor](src/main/kotlin/treesandgraphs/Question6.kt)
+   1. [Build Order](src/main/kotlin/treesandgraphs/Question7.kt)
+   1. [First Common Ancestor](src/main/kotlin/treesandgraphs/Question8.kt)
+   1. [BST Sequences](src/main/kotlin/treesandgraphs/Question9.kt)
+   1. [Check Subtree](src/main/kotlin/treesandgraphs/Question10.kt)
+   1. [Random Node](src/main/kotlin/treesandgraphs/Question11.kt)
+   1. [Paths with Sum](src/main/kotlin/treesandgraphs/Question12.kt)

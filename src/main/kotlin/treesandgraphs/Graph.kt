@@ -1,4 +1,4 @@
-package trees_graphs
+package treesandgraphs
 
 class Graph(val children: Array<Node>)
 

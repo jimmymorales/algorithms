@@ -1,5 +1,6 @@
 [versions]
 detekt = "1.21.0"
+kotest = "5.3.1"
 kotlin = "1.7.10"
 
 [plugins]
@@ -8,3 +9,10 @@ kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 
 [libraries]
 detekt_formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
+
+kotest_assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+kotest_property = { module = "io.kotest:kotest-property", version.ref = "kotest" }
+kotest_runner = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
+
+[bundles]
+kotest = ["kotest.assertions", "kotest.property", "kotest.runner"]

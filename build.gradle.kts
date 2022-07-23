@@ -32,6 +32,13 @@ tasks.withType<io.gitlab.arturbosch.detekt.DetektCreateBaselineTask>().configure
 	jvmTarget = detektJvmVersion
 }
 
+tasks.withType<Test>().configureEach {
+	useJUnitPlatform()
+}
+
 dependencies {
 	detektPlugins(libs.detekt.formatting)
+
+	implementation(libs.kotest.property)
+	testImplementation(libs.bundles.kotest)
 }
