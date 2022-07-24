@@ -1,16 +1,13 @@
 package treesandgraphs
 
+import bitmanipulation.updateBits
 import io.kotest.core.spec.style.FunSpec
-import io.kotest.matchers.ints.shouldBeExactly
-import io.kotest.property.Arb
-import io.kotest.property.arbitrary.int
-import io.kotest.property.checkAll
-import utils.bstNodeArb
+import io.kotest.matchers.shouldBe
 
 internal class Question12Test : FunSpec({
 	test("Paths with Sum") {
-		checkAll(bstNodeArb(size = 20), Arb.int(min = -1, max = 100)) { root, targetSum ->
-			countPathsWithSum(root, targetSum) shouldBeExactly countPathsWithSumBF(root, targetSum)
-		}
+		val n = "10000000000".toInt(radix = 2)
+		val m = "10011".toInt(radix = 2)
+		updateBits(n, m, 2, 6).toString(radix = 2) shouldBe "10001001100"
 	}
 })
