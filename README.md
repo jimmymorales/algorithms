@@ -52,3 +52,4 @@ Tests for some of the solutions can be found in [src/test/kotlin](src/test/kotli
 	1. [Paths with Sum](src/main/kotlin/treesandgraphs/Question12.kt)
 5. [Bit Manipulation](src/main/kotlin/bitmanipulation)
 	1. [Insertion](src/main/kotlin/bitmanipulation/Question1.kt)
+	1. [Binary to String](src/main/kotlin/bitmanipulation/Question2.kt)
