@@ -55,3 +55,5 @@ Tests for some solutions can be found in [src/test/kotlin](src/test/kotlin).
 	2. [Binary to String](src/main/kotlin/bitmanipulation/Question2.kt)
 	3. [Flip Bit to Win](src/main/kotlin/bitmanipulation/Question3.kt)
 	4. [Next Number](src/main/kotlin/bitmanipulation/Question4.kt)
+	5. Debugger (No coding question, see textbook.)
+	6. [Conversion](src/main/kotlin/bitmanipulation/Question6.kt)
