@@ -57,3 +57,4 @@ Tests for some solutions can be found in [src/test/kotlin](src/test/kotlin).
 	4. [Next Number](src/main/kotlin/bitmanipulation/Question4.kt)
 	5. Debugger (No coding question, see textbook.)
 	6. [Conversion](src/main/kotlin/bitmanipulation/Question6.kt)
+	7. [Pairwise Swap](src/main/kotlin/bitmanipulation/Question7.kt)
